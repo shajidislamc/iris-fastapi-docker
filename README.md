@@ -93,7 +93,7 @@ Run with docker-compose:
 docker-compose up --build
 ```
 
-This exposes the service on the port configured in `docker-compose.yml` (default `8000`).
+This exposes the service on the port configured in `docker-compose.yml` (default `7860`).
 
 ## Load testing
 
