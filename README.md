@@ -31,10 +31,10 @@ pip install -r requirements.txt
 3. Run the API (development):
 
 ```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload --host 0.0.0.0 --port 7860
 ```
 
-The API will be available at `http://127.0.0.1:8000` and interactive docs at `http://127.0.0.1:8000/docs`.
+The API will be available at `http://127.0.0.1:7860` and interactive docs at `http://127.0.0.1:7860/docs`.
 
 ## API Endpoints
 
@@ -45,7 +45,7 @@ The API will be available at `http://127.0.0.1:8000` and interactive docs at `ht
 Example request to `/predict`:
 
 ```bash
-curl -X POST "http://127.0.0.1:8000/predict" \
+curl -X POST "http://127.0.0.1:7860/predict" \
 	-H "Content-Type: application/json" \
 	-d '{"sepal_length":5.1, "sepal_width":3.5, "petal_length":1.4, "petal_width":0.2}'
 ```

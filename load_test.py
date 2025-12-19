@@ -2,7 +2,7 @@ import asyncio
 import time
 import httpx
 
-URL = "http://127.0.0.1:8000"
+URL = "http://127.0.0.1:7860"
 
 async def call_sync():
     async with httpx.AsyncClient(timeout=120.0) as client:
